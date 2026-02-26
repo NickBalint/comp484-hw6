@@ -1,26 +1,106 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - #0f172a
+# - #1e3a8a
+# - #dbeafe
+# - #f8fafc
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #f8fafc;
+    color: #0f172a;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.profile-picture {
+    height: 150px;
+    background: #dbeafe;
+    border: 3px solid #f8fafc;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+p,
+li,
+a {
+    font-weight: 400;
+}
+
+header,
+section,
+footer {
+    padding: 2rem;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
 
+header {
+    background: #1e3a8a;
+    color: #f8fafc;
+}
+
+footer {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+footer a {
+    color: #dbeafe;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 
 
 /* Work Experience
 ------------------------------------*/
 
+.work-experience {
+    background: #dbeafe;
+}
+
 
 
 /* Education
 ------------------------------------*/
+
+.education {
+    background: #f8fafc;
+}
