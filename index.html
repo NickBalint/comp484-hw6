@@ -12,73 +12,116 @@
 <body>
     <!-- // Intro -->
     <header>
-        <img class="profile-picture" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Blank profile picture placeholder">
-        <h1>Nick Balint</h1>
-        <h2>Computer Science Student</h2>
-        <p>Curious and detail-oriented student focused on web development, software engineering fundamentals, and practical team collaboration.</p>
-        <p>I enjoy building clean, accessible user interfaces and improving projects through iterative design and testing.</p>
+        <div class="content-wrap">
+            <img class="profile-picture profile-img column-narrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Blank profile picture placeholder">
+            <div class="column-wide">
+                <h1>Nick Balint</h1>
+                <h2>Computer Science Student</h2>
+                <p>Curious and detail-oriented student focused on web development, software engineering fundamentals, and practical team collaboration.</p>
+                <p>I enjoy building clean, accessible user interfaces and improving projects through iterative design and testing.</p>
+            </div>
+        </div>
     </header>
     
     <main> 
         <!-- // Work Experience -->
         <section class="work-experience">
-            <h2>Work Experience</h2>
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Operations Engineer</h3>
-            <p>Generation IX Technologies · Full-time</p>
-            <p>Jan 2026 - Present</p>
+                <!-- Job Details: copy this whole block to add more jobs -->
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Operations Engineer</h3>
+                        <p>Generation IX Technologies · Full-time</p>
+                        <p>Jan 2026 - Present</p>
+                    </div>
+                    <div class="column-wide">
+                        <p>Supported operations and technical workflows to improve reliability and day-to-day delivery.</p>
+                        <ul>
+                            <li>Monitored systems and resolved issues to keep services running smoothly.</li>
+                            <li>Collaborated with teammates to document processes and improve response times.</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h3>Server</h3>
-            <p>Wood Ranch · Part-time</p>
-            <p>Aug 2019 - Present</p>
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Server</h3>
+                        <p>Wood Ranch · Part-time</p>
+                        <p>Aug 2019 - Present</p>
+                    </div>
+                    <div class="column-wide">
+                        <p>Delivered strong customer experiences in a fast-paced environment while managing multiple priorities.</p>
+                        <ul>
+                            <li>Provided attentive table service and coordinated with kitchen staff for accurate orders.</li>
+                            <li>Maintained quality, speed, and communication during peak hours.</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h3>Sales Associate</h3>
-            <p>Target · Part-time</p>
-            <p>Apr 2017 - Jul 2019</p>
-            <!-- end of Job Details block. -->
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Sales Associate</h3>
+                        <p>Target · Part-time</p>
+                        <p>Apr 2017 - Jul 2019</p>
+                    </div>
+                    <div class="column-wide">
+                        <p>Assisted customers and supported daily store operations across merchandising and checkout tasks.</p>
+                        <ul>
+                            <li>Helped guests locate products and answered questions to improve satisfaction.</li>
+                            <li>Restocked shelves and maintained organized, clean sales floor sections.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end of Job Details block. -->
+            </div>
             
         </section>
 
 
         <!-- // Education -->
         <section class="education">
-            <h2>Education</h2>
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>California State University, Northridge</h3>
-            <p>Bachelor's Degree, Computer Science</p>
-            <p>Jan 2024 - May 2025</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Focused on core software development principles and advanced computer science coursework.</p>
-            <h3>California State University, Chico</h3>
-            <p>Computer Science</p>
-            <p>Aug 2022 - May 2023</p>
-            <p>Activities and societies: Student Athlete with Track and Field</p>
-            <p>Skills: C++ · C (Programming Language) · SQL</p>
-            <h3>Moorpark College</h3>
-            <p>Associate of Science - AS, Computer Science</p>
-            <p>2017 - 2022</p>
-            <p>Skills: HTML · C++ · Python (Programming Language)</p>
-            <h3>Oak Park High School</h3>
-            <p>2013 - 2017</p>
-            <!-- End of school details. -->
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>California State University, Northridge</h3>
+                <p>Bachelor's Degree, Computer Science</p>
+                <p>Jan 2024 - May 2025</p>
+
+                <!-- Add as many paragraphs as you need. -->
+                <p>Focused on core software development principles and advanced computer science coursework.</p>
+                <h3>California State University, Chico</h3>
+                <p>Computer Science</p>
+                <p>Aug 2022 - May 2023</p>
+                <p>Activities and societies: Student Athlete with Track and Field</p>
+                <p>Skills: C++ · C (Programming Language) · SQL</p>
+                <h3>Moorpark College</h3>
+                <p>Associate of Science - AS, Computer Science</p>
+                <p>2017 - 2022</p>
+                <p>Skills: HTML · C++ · Python (Programming Language)</p>
+                <h3>Oak Park High School</h3>
+                <p>2013 - 2017</p>
+                <!-- End of school details. -->
+            </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:nbalint223@gmail.com">nbalint223@gmail.com</a>
-            <a href="https://www.linkedin.com/in/nicholas-balint/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/NickBalint" target="_blank">GitHub</a>
-        </div>
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:nbalint223@gmail.com">nbalint223@gmail.com</a>
+                <a href="https://www.linkedin.com/in/nicholas-balint/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/NickBalint" target="_blank">GitHub</a>
+            </div>
 
-        <p>Copyright 2026 by Nick Balint</p>
+            <p>Copyright 2026 by Nick Balint</p>
+        </div>
     </footer>
 </body>
 </html>
