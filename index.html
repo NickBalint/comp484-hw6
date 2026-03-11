@@ -7,11 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" download>Download Resume PDF</a>
+    </nav>
+
     <!-- // Intro -->
-    <header>
+    <header id="about">
         <div class="content-wrap">
             <img class="profile-picture profile-img column-narrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Blank profile picture placeholder">
             <div class="column-wide">
@@ -25,7 +34,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section class="work-experience">
+        <section class="work-experience" id="work-experience">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -81,7 +90,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -109,15 +118,15 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:nbalint223@gmail.com">nbalint223@gmail.com</a>
-                <a href="https://www.linkedin.com/in/nicholas-balint/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/NickBalint" target="_blank">GitHub</a>
+                <a href="mailto:nbalint223@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> nbalint223@gmail.com</a>
+                <a href="https://www.linkedin.com/in/nicholas-balint/" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                <a href="https://github.com/NickBalint" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
             </div>
 
             <p>Copyright 2026 by Nick Balint</p>
